@@ -2,25 +2,29 @@
     color: #393939;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
 }
 
 h1, h2 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 300;
     text-align: center;
 }
 
 h3, .nav-heading {
-    font-size: 33px;
+    font-size: 2.063rem;
     font-weight: 300;
     text-align: center;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
@@ -28,55 +32,11 @@ ul {
     list-style: none;
 }
 
-.nitro {
+.nitro-h2 {
     text-align: left;
 }
 
-.nav-link {
-    text-decoration-color: none;
-    font-size: 21px;
-    font-weight: 400;
-    min-width: 100%;
-    max-width: 100%;
-    background-color: #393939;
-    color: #FFF;
-    text-align: center;
-}
-
-.nav-link:visited {
-    color: #FFF;
-}
-
-.nav-buttons:visited {
-    color: white;
-}
-
-.nav-buttons {
-    text-decoration: none;
-    text-size-adjust: 21px;
-    font-weight: 300;
-}
-
 .icon-logo {
-    min-width: 50px;
-    max-width: 120px;
-}
-
-.title-box {
-    min-width: 208px;
-    max-width: 300px;
-    min-height: 180px;
-    max-height: 200px;
-    background-color: #393939;
-    color: #FFF;
-    text-align: center;
-}
-
-.discount-text-bold {
-    font-weight: 700;
-}
-
-.product-images {
-    min-height: 240px;
-    max-height: 550px;
+    min-width: 3.125rem;
+    max-width: 7.5rem;
 }
