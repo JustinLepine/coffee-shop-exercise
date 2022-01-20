@@ -1,0 +1,28 @@
+h1, h2, h3 {
+    text-align: left;
+}
+
+.discount-banner {
+    min-width: fit-content;
+    max-width: 90%;
+    background-color: #393939;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 400;
+}  
+
+.pink-box {
+    background-color: #FFF0ED;
+}
+
+.teal-button {
+    color: #FFF;
+    background-color: #5BACC3;
+    border-color: #5BACC3;
+    border-style: solid;
+}
+
+
+.menu-pricing {
+    color: #5BACC3;
+}
