@@ -33,7 +33,7 @@ ul {
     list-style: none;
 }
 
-.nitro-h2 {
+.nitro-header {
     text-align: left;
 }
 
@@ -41,3 +41,12 @@ ul {
     min-width: 3.125rem;
     max-width: 7.5rem;
 }
+
+.nav-link {
+    text-decoration: underline;
+    color: blue;
+}
+
+.nav-link:visited {
+    color: purple;
+} 

@@ -10,7 +10,7 @@
     background-color: #FFF0ED;
 }
 
-.nav-link {
+.page-link {
     text-decoration-color: none;
     font-size: 1.313rem;
     font-weight: 400;
@@ -19,33 +19,34 @@
     background-color: #393939;
     color: #FFF;
     text-align: center;
+    padding: 0;
 }
 
-.nav-link:visited {
+.page-link:visited {
     color: #FFF;
 }
 
-.nav-link:active {
+.page-link:active {
     color: #FFF;
 }
 
-.nav-buttons:visited {
+.page-buttons:visited {
     color: white;
 }
 
-.nav-buttons {
+.page-buttons {
     text-decoration: none;
     text-size-adjust: 1.313rem;
     font-weight: 300;
 }
-.italic {
+.italic-text {
     font-size: 1.125rem;
     font-weight: 400;
     font-style: italic;
     margin-right: 65%;
 }
 
-.menu-pricing {
+.menu-pricing-centered {
     color: #5BACC3;
     text-align: center;
 }
