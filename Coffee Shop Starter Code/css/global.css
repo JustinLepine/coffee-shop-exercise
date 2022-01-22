@@ -18,35 +18,55 @@ h1, h2 {
     text-align: center;
 }
 
-h3, .nav-heading {
-    font-size: 2.063rem;
-    font-weight: 300;
-    text-align: center;
-}
-
 p {
     font-size: 1.125rem;
     font-weight: 400;
 }
 
-ul {
-    list-style: none;
+.nav-box {
+    background-color: #FFF0ED;
+    display: inline-block;
+    
+    width: 100%;
 }
 
-.nitro-header {
+.nav-box--teal-text{ 
+    color: #5BACC3;
+}
+
+.nav-box__list {
+    width:  30rem;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-bottom: 0.6rem;
+}
+
+.nav-box--link {
+    display: inline-block;
+    font-size: 1.313rem;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right:1.8rem;
+
+}
+
+.nav-box__title {
+    font-size: 3.75rem;
     text-align: left;
+    width: 10rem;
+    display: inline-block;
+    margin: 1.875rem, 0, 1.875rem, 1.875rem;
+    padding-right: 0;
 }
 
-.icon-logo {
+.nav-box__logo {
+    text-decoration: none;
     min-width: 3.125rem;
-    max-width: 7.5rem;
+    max-width: 4.5rem;
+    display: inline-block;
 }
 
-.nav-link {
-    text-decoration: underline;
-    color: blue;
+.pink-box {
+    background-color: #FFF0ED;
 }
 
-.nav-link:visited {
-    color: purple;
-} 

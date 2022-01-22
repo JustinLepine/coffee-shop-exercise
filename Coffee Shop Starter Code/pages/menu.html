@@ -9,17 +9,20 @@
     <title>Coffee Shop - Menu</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-box">
         <a href="../index.html">
-            <img class="icon-logo" src="../assets/images/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
+            <img class="nav-box nav-box__logo" src="../assets/images/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
         </a>
-        <h2 class="nitro-header">nitro</h2>
-            <ul>
-                <li><a class="nav-link" href="../index.html">ABOUT</a></li>
-                <li><a class="nav-link" href="./menu.html">MENU</a></li>
-                <li><a class="nav-link" href="./menu.html">SHOP NOW</a></li>
+        <h2 class="nav-box nav-box__title">nitro</h2>
+            <ul class="nav-box nav-box__list">                
+                <li class="nav-box--link"><a href="../index.html">ABOUT</a></li>
+                <li class="nav-box--link"><a href="./menu.html">MENU</a></li>
+                <li class="nav-box--link"><a class="nav-box--teal-text" href="./menu.html">SHOP NOW</a></li>    
             </ul>
     </nav>
+
+
+
         <div class="title-box-background">
             <h1 class="title-box">MENU</h1>
         </div>
@@ -28,7 +31,7 @@
                 <li><a class="page-buttons" href="#cold-drinks">Cold Drinks</a></li>
                 <li><a class="page-buttons" href="#pastries">Pastries</a></li>
             </ul>
-    <section id="hot-drinks">
+    <section id="hot-drinks" class="pink-box">
         <h2>Hot Drinks</h2>
             <h3>In-house brew</h3>
                 <p class="italic-text">- Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low acidity to bring everything together.</p>
@@ -37,7 +40,7 @@
                 <p class="italic-text">A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor profile. It features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral finish.</p>
                 <p class="menu-pricing-centered">$4.99</p>
     </section>
-    <section id="cold-drinks">
+    <section id="cold-drinks" class="pink-box">
         <h2>Cold Drinks</h2>
             <h3>Cold Brew</h3>
                 <p class="italic-text">Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the flavor of our amazing in-house coffee.</p>
@@ -46,7 +49,7 @@
                 <p class="italic-text">A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and poured over ice.</p>
                 <p class="menu-pricing-centered">$6.99</p>
     </section>
-    <section id="pastries">
+    <section id="pastries" class="pink-box">
         <h2>Pastries</h2>
             <h3>Bacon Oatmeal Raisin Cookie</h3>
                 <p class="italic-text">An infused bacon, sugar and egg mixture is folded into a perfect blend of oats, flour, raisins and cinnamon to create a soft and chewy textured cookie.  </p>
