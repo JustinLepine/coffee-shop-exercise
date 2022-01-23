@@ -16,6 +16,7 @@ h1, h2 {
     font-size: 3.75rem;
     font-weight: 300;
     text-align: center;
+
 }
 
 p {
@@ -26,7 +27,7 @@ p {
 .nav-box {
     background-color: #FFF0ED;
     display: inline-block;
-    
+    margin-bottom: 0;
     width: 100%;
 }
 
@@ -38,7 +39,7 @@ p {
     width:  30rem;
     vertical-align: middle;
     padding-left: 0;
-    padding-bottom: 0.6rem;
+    padding-bottom: 1.5rem;
 }
 
 .nav-box--link {
@@ -67,6 +68,9 @@ p {
 }
 
 .pink-box {
+    display: inline-block;
     background-color: #FFF0ED;
+    margin-top: 0;
+    padding-top: 0;
 }
 
