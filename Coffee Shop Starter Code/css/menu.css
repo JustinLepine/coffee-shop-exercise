@@ -1,60 +1,88 @@
-.page-link {
-    text-decoration-color: none;
-    font-size: 1.313rem;
-    font-weight: 400;
-    min-width: 100%;
-    max-width: 100%;
-    background-color: #393939;
-    color: #FFF;
-    text-align: center;
-    padding: 0;
-}
-
-.page-link:visited {
-    color: #FFF;
-}
-
-.page-link:active {
-    color: #FFF;
-}
-
-.page-buttons:visited {
-    color: white;
-}
-
-.page-buttons {
-    text-decoration: none;
-    text-size-adjust: 1.313rem;
-    font-weight: 300;
-}
-.italic-text {
-    font-size: 1.125rem;
-    font-weight: 400;
-    font-style: italic;
-    margin-right: 65%;
-}
-
-.menu-pricing-centered {
-    color: #5BACC3;
-    text-align: center;
+#hot-drinks {
+    margin-top: -1.2rem;
 }
 
 .title-box {
+    margin-top: -2.5rem;
+    margin-left: 40.5%;
+}
+
+.title-box--title,
+.title-box__page-list {
+    background-color: #393939;
+    color: #FFF;
+}
+
+.title-box--title {
     min-width: 13rem;
     max-width: 18.75rem;
     min-height: 11.25rem;
     max-height: 12.5rem;
-    background-color: #393939;
-    color: #FFF;
-    text-align: center;
+    padding-top: 1rem;
 }
 
 .title-box-background {
+    width: 100%;
+    min-height: 37.938rem;
+    max-height: 37.5rem;
     background-image: url(../assets/images/coffee-circle.jpg);
     background-position: center;
     background-size: cover;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 35.938rem;
-    max-height: 37.5rem;
+}
+
+.title-box__page-list {
+    width: 100%;
+    margin-top: 0rem;
+    padding: 1.8rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.313rem;    
+}
+
+.title-box__page-list:active {
+    color: #FFF;
+}
+
+.title-box--page-link:visited {
+    color: white;
+}
+
+.title-box--page-link {
+    width: 12rem;
+    display: inline-block;
+    border-left: #5BACC3 solid .3rem;
+}
+
+.title-box--lineup {
+    display: inline;
+}
+
+.menu-box__title {
+    margin-bottom: -0.2rem;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu-box--italic-text {
+    width: 35%;
+    margin-bottom: -0.9rem;
+    margin-left: 32%;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.menu-box--pricing-centered {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5BACC3;
+}
+
+.menu-box {
+    width: 100%;
+    display: inline-block;
+    background-color: #FFF0ED;
 }

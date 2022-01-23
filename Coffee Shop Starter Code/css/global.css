@@ -14,9 +14,8 @@ body {
 
 h1, h2 {
     font-size: 3.75rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
-
 }
 
 p {
@@ -25,10 +24,10 @@ p {
 }
 
 .nav-box {
-    background-color: #FFF0ED;
-    display: inline-block;
-    margin-bottom: 0;
     width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    background-color: #FFF0ED;
 }
 
 .nav-box--teal-text{ 
@@ -37,42 +36,35 @@ p {
 
 .nav-box__list {
     width:  30rem;
-    vertical-align: middle;
     padding-left: 0;
     padding-bottom: 1.5rem;
+    vertical-align: middle;
     font-weight: 600;
-    
+    font-size: 1rem;
 }
 
 .nav-box--link {
+    padding-right:1.8rem;
     display: inline-block;
     font-size: 1.313rem;
-    list-style-type: none;
     text-decoration: none;
-    padding-right:1.8rem;
-
 }
 
 .nav-box__title {
-    font-size: 3.75rem;
-    text-align: left;
     width: 10rem;
-    display: inline-block;
     margin: 1.875rem, 0, 1.875rem, 1.875rem;
     padding-right: 0;
+    display: inline-block;
+    font-size: 3.75rem;
+    text-align: left;
 }
 
 .nav-box__logo {
-    text-decoration: none;
     min-width: 3.125rem;
     max-width: 4.5rem;
     display: inline-block;
+    text-decoration: none;
 }
 
-.pink-box {
-    display: inline-block;
-    background-color: #FFF0ED;
-    margin-top: 0;
-    padding-top: 0;
-}
+
 
