@@ -39,6 +39,14 @@
     font-size: 1.313rem;    
 }
 
+.title-box__page-list {
+    color: #FFF;
+}
+
+.title-box__page-list:link {
+    color: #FFF;
+}
+
 .title-box__page-list:active {
     color: #FFF;
 }
