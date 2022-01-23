@@ -39,7 +39,7 @@
     font-size: 1.313rem;    
 }
 
-.title-box__page-list {
+.title-box__page-list a {
     color: #FFF;
 }
 
@@ -59,6 +59,7 @@
     width: 12rem;
     display: inline-block;
     border-left: #5BACC3 solid .3rem;
+    color: #FFF;
 }
 
 .title-box--lineup {

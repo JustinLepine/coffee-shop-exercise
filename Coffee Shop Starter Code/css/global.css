@@ -4,6 +4,7 @@
 
 a {
     text-decoration: none;
+
 }
 
 body {
@@ -48,6 +49,7 @@ p {
     display: inline-block;
     font-size: 1.313rem;
     text-decoration: none;
+    color: #393939;
 }
 
 .nav-box__title {
