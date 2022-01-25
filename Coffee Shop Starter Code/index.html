@@ -9,17 +9,25 @@
     <title>Coffee Shop - Home</title>
 </head>
 <body>
+
+
     <nav class="nav-box">
-        <a href="./index.html">
-            <img class="nav-box nav-box__logo" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
-        </a>
-        <h2 class="nav-box nav-box__title">nitro</h2>
+        <div class="nav-box--left">
+            <a href="./index.html">
+                <img class="nav-box nav-box__logo" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
+            </a>
+            <h2 class="nav-box nav-box__title">nitro</h2>            
+        </div>
+        <div class="nav-box--right">
             <ul class="nav-box nav-box__list">                
                 <li class="nav-box--link"><a href="./index.html">ABOUT</a></li>
                 <li class="nav-box--link"><a href="./pages/menu.html">MENU</a></li>
                 <li class="nav-box--link"><a class="nav-box--teal-text" href="./pages/menu.html">SHOP NOW</a></li>    
             </ul>
-    </nav>
+        </div>
+    </nav>   
+
+
     <section class="hero-box">
         <div class="hero-box__left">
             <h1 class="hero-box__title">Nitro Coffee</h1>            
@@ -32,22 +40,47 @@
     </section>    
     <section class="products">
         <h2 class="products-box__title">Our Products</h2>
-            <div class="products__card">
-                <img class="product-images" src="./assets/images/coffeebeans.png" alt="coffee beans">
-                <h3 class="product__card--title">Coffee Beans</h3>
-                <p class="product__menu--pricing">$18.99</p>
-            </div> 
-            <div class="products__card">
-                <img class="product-images" src="./assets/images/coldbrew.png" alt="cold brew">
-                <h3 class="product__card--title">Cold Brew</h3>
-                <p class="product__menu--pricing">$4.99</p>
+            <section class="product-card__box">
+                <div class="products__card">
+                        <img class="product-image" src="./assets/images/coffeebeans.png" alt="coffee beans">                    
+                    <div class="product-card__price-tag">
+                        <div class="product-card__price-tag--desc">                            
+                            <h3 class="product__card--title">Coffee Beans</h3>
+                            <p>Pack of 3</p>
+                        </div>
+                        <div class="product__card--price">
+                            <p class="product__menu--pricing">$19</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="products__card">
+                        <img class="product-image" src="./assets/images/coldbrew.png" alt="cold brew">                    
+                    <div class="product-card__price-tag">
+                        <div class="product-card__price-tag--desc">                            
+                            <h3 class="product__card--title">Cold Brew</h3>
+                            <p>1 can</p>
+                        </div>
+                        <div class="product__card--price">
+                            <p class="product__menu--pricing">$5</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="products__card">
+                        <img class="product-image" src="./assets/images/inhousebrew.png" alt="in-house brew">                    
+                    <div class="product-card__price-tag">
+                        <div class="product-card__price-tag--desc">                            
+                            <h3 class="product__card--title">In-house Brew</h3>
+                            <p>1 cup</p>
+                        </div>
+                        <div class="product__card--price">
+                            <p class="product__menu--pricing">$3</p>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <div class="product__button--box">
+                <a class="product__button" href="./pages/menu.html">VIEW ALL</a>
             </div>
-            <div class="products__card">
-                <img class="product-images" src="./assets/images/inhousebrew.png" alt="in-house brew">
-                <h3 class="product__card--title">In-house Brew</h3>
-                <p class="product__menu--pricing">$2.99</p>
-            </div>           
-        <a class="product__button" href="./pages/menu.html">VIEW ALL</a>
     </section>
         <p class="discount-banner">Get 20% off your first order with code: <span style="font-weight:700; color:#FFF;">FirstNitro</span></p>
     <footer class="footer-box">

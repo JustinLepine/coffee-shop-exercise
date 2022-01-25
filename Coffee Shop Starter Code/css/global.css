@@ -25,10 +25,22 @@ p {
 }
 
 .nav-box {
-    width: 100%;
-    margin-bottom: 0;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;    
     background-color: #FFF0ED;
+}
+
+.nav-box--left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-box--right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-box--teal-text{ 
@@ -38,7 +50,7 @@ p {
 .nav-box__list {
     width:  30rem;
     padding-left: 0;
-    padding-bottom: 1.5rem;
+    /* padding-bottom: 1.5rem; */
     vertical-align: middle;
     font-weight: 600;
     font-size: 1rem;
@@ -53,17 +65,18 @@ p {
 }
 
 .nav-box__title {
-    width: 10rem;
-    margin: 1.875rem, 0, 1.875rem, 1.875rem;
+    margin: 0rem;
+    /* width: 10rem; */
+    /* margin: 0rem, 0, 1.875rem, 1.875rem; */
     padding-right: 0;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 3.75rem;
     text-align: left;
 }
 
 .nav-box__logo {
-    min-width: 3.125rem;
-    max-width: 4.5rem;
+    min-width: 4.125rem;
+    max-width: 5.5rem;
     display: inline-block;
     text-decoration: none;
 }

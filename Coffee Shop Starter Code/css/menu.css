@@ -3,8 +3,11 @@
 }
 
 .title-box {
-    margin-top: -2.5rem;
-    margin-left: 40.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* margin-top: -2.5rem;
+    margin-left: 40.5%; */
 }
 
 .title-box--title,

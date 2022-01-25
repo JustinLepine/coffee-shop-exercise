@@ -48,56 +48,119 @@
 }
 
 .products {
-    margin-top: -3.1rem;
-    padding-bottom: 0.1rem;
     padding-top: 1.5rem;
     background-color: #F7F7F7;
 }
 
 .product-box__title {
     vertical-align: middle;
+    margin-left: 1rem;
+}
+
+.product-card__box {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+
 }
 
 .products__card {
-    min-width: 12rem;
-    max-width: 15rem;
-    min-height: 27.5rem;
-    max-height: 28.75rem;
-    margin-bottom: 5rem;
-    margin-left: 16rem;
-    padding-left: 4%;
+    min-width: 23rem;
+    max-width: 25rem;
+    min-height: 30rem;
+    max-height: 35rem;
     display: inline-block;
-    vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 0.625rem;
     box-shadow: 0rem 0.313rem 0.563rem -0.063rem rgba(0, 0, 0, 0.25);
+    /* padding: 0rem;     */
 }
 
-img.product-images {
-    vertical-align: middle;
-    margin: 1.7rem 5rem 1rem .9rem;    
+.product-card__price-tag {
+    display: flex;
+    align-items: center;
+
+    flex-grow: 1;
+    background-color: #FFF0ED;
+    border-radius: 0.625rem;
+    padding: 0rem;
+    width: 100%;
+}
+
+.product-image {
+    display: flex;
+    /* flex-direction: row; */
+    height: 60%;
+    margin: 1.7rem 0rem;
+    padding: 0rem;
 }
 
 .product__card--title {
-    padding-left: 1.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+}
+
+.product-box__price-tag {   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.product-card__price-tag--price {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-grow: 1;
+}
+
+.product-card__price-tag--desc {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.product-card__price-tag--quan {
+    flex-grow: 0;
+}
+
+.product-card__price-tag--desc p {
+    margin-top: 0rem;
+    color: #909090;
 }
 
 .product__menu--pricing {
-    padding-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center;  */
     color: #5BACC3;
     font-size: 2rem;
+    font-weight: 800;
 }
 
 .product__button {
+    /* display: flex; */
+    /* justify-items: center; */
     min-width: 11.25rem;
     max-width: 12rem;
-    margin-bottom: 10rem;    
-    margin-left: 44.5%;
+    margin-bottom: 5rem;    
+    /* margin-left: 44.5%; */
     padding: 1.1rem;
-    display: block;
+    /* display: block; */
     text-align: center;
     font-size: 1.313rem;
     color: #FFF;
     background-color: #5BACC3;
+}
+
+.product__button--box {
+    display: flex;
+    justify-content: center;
 }
 
 .discount-text-bold {
