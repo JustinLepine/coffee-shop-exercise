@@ -6,8 +6,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    /* margin-top: -2.5rem;
-    margin-left: 40.5%; */
 }
 
 .title-box--title,
@@ -17,11 +15,12 @@
 }
 
 .title-box--title {
-    min-width: 13rem;
-    max-width: 18.75rem;
+    width: 19rem;
     min-height: 11.25rem;
     max-height: 12.5rem;
-    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-box-background {
@@ -31,6 +30,9 @@
     background-image: url(../assets/images/coffee-circle.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .title-box__page-list {
@@ -97,4 +99,10 @@
     width: 100%;
     display: inline-block;
     background-color: #FFF0ED;
+}
+
+.menu-box--grey {
+    background-color: #F7F7F7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

@@ -9,7 +9,6 @@ a {
 
 body {
     font-family: 'Open Sans';
-    font-weight: 400;
     margin: 0;
 }
 
@@ -34,7 +33,6 @@ p {
 
 .nav-box--left {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
@@ -49,37 +47,20 @@ p {
 
 .nav-box__list {
     width:  30rem;
-    padding-left: 0;
-    /* padding-bottom: 1.5rem; */
-    vertical-align: middle;
     font-weight: 600;
-    font-size: 1rem;
 }
 
 .nav-box--link {
     padding-right:1.8rem;
     display: inline-block;
     font-size: 1.313rem;
-    text-decoration: none;
-    color: #393939;
 }
 
 .nav-box__title {
     margin: 0rem;
-    /* width: 10rem; */
-    /* margin: 0rem, 0, 1.875rem, 1.875rem; */
-    padding-right: 0;
-    /* display: inline-block; */
-    font-size: 3.75rem;
-    text-align: left;
 }
 
 .nav-box__logo {
     min-width: 4.125rem;
     max-width: 5.5rem;
-    display: inline-block;
-    text-decoration: none;
 }
-
-
-
