@@ -12,22 +12,24 @@ body {
     margin: 0;
 }
 
-h1, h2 {
-    font-size: 3.75rem;
+h1, h2, h3 {
     font-weight: 400;
+}
+
+h1, h2 {
+    font-size: 3rem;
     text-align: center;
 }
 
 p {
     font-size: 1.125rem;
-    font-weight: 400;
 }
 
 .nav-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.3rem;    
+    padding: .4rem;    
     background-color: #FFF0ED;
 }
 
@@ -36,31 +38,31 @@ p {
     align-items: center;
 }
 
+.nav-box__logo {
+    min-width: 4.125rem;
+    max-width: 5.5rem;
+}
+
+.nav-box__title {
+    margin: 0rem;
+    font-size: 3rem;
+}
+
 .nav-box--right {
     display: flex;
     justify-content: flex-end;
 }
 
-.nav-box--teal-text{ 
-    color: #5BACC3;
-}
-
 .nav-box__list {
-    width:  30rem;
-    font-weight: 600;
+    width:  23rem;
 }
 
 .nav-box--link {
     padding-right:1.8rem;
     display: inline-block;
-    font-size: 1.313rem;
+    font-size: 1.2rem;
 }
 
-.nav-box__title {
-    margin: 0rem;
-}
-
-.nav-box__logo {
-    min-width: 4.125rem;
-    max-width: 5.5rem;
+.nav-box--teal-text{ 
+    color: #5BACC3;
 }
