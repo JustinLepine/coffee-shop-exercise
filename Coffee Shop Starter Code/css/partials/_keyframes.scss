@@ -1,0 +1,32 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(72deg);
+    }
+    40% {
+        transform: rotate(144deg);
+    }
+    60% {
+        transform: rotate(216deg);
+    }
+    80% {
+        transform: rotate(288deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes color-swap {
+    0% {
+        background-color: #393939;
+    }
+    50% {
+        background-color: #5BACC3;
+    }
+    100% {
+        background-color: #393939;
+    }
+}

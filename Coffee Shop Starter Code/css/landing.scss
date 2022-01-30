@@ -1,0 +1,281 @@
+@use "./partials/global" as *;
+@use "./partials/keyframes" as *;
+
+.hero-box {
+    background-color: #FFF0ED;
+    display: flex;
+
+    &__left {
+    width: 30%;
+    padding-left: 10%;
+    padding-top: 8%;    
+    }
+
+    &__title {
+    text-align: left;
+    margin-left: 8%;
+    margin-bottom: -1rem;    
+    }
+
+    &__content {
+    width: 20rem;
+    margin-left: 8%;
+    padding-bottom: 2.5rem;        
+    }
+
+    &__button {
+    bottom: 5px;
+    right: 5px;
+    padding: 0rem;
+    margin: 0rem;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    border: 2px solid #393939;
+    color: #FFF;
+
+        &:active {
+                transform: translateY(5px) translateX(5px);
+        }
+
+        &--border {
+                margin-left: 2.3rem;
+        height: 50px;
+        width: 160px;
+        padding: 0rem;
+        background-color: #5BACC3;
+        position: relative;
+        }
+    }
+
+    &__right {
+        padding: 5% 8% 3% 25%;   
+    }
+
+    &__beans {
+        vertical-align: middle;
+        width: 17rem;
+    }
+}
+
+.product {
+    padding-top: 1.5rem;
+    background-color: #F7F7F7;
+
+    &__card {
+        width: 15rem;
+        height: 19rem;
+        display: flex;
+        margin-left: 4rem;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFF;
+        border-radius: 0.625rem;
+        box-shadow: 0rem 0.313rem 0.563rem -0.063rem rgba(0, 0, 0, 0.25);
+        
+        &__box {
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 6rem;  
+        }
+
+        &__price-tag {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #FFF0ED;
+            border-radius: 0.625rem;
+            padding-bottom: 0rem;
+            width: 100%;
+            
+            &--desc {
+                display: flex;
+                flex-direction: column;
+                align-items: start;                
+            }
+
+            &--desc p {
+                font-size: 0.9rem;
+                padding-left: 0.5rem;
+                margin-top: 0rem;
+                color: #909090;
+            }
+        }
+
+        &--title {
+            font-size: 1.3rem;
+            margin-bottom: 0rem;
+            padding-left: 0.5rem;            
+        }
+    }
+
+    &-image {
+        height: 55%;
+        margin: 1.2rem 0rem;        
+    }
+
+    &__menu {
+
+        &--price {
+            width: 100%;
+            justify-content: space-between;            
+        }
+
+        &--pricing {
+            display: flex;
+            color: #5BACC3;
+            font-size: 1.9rem;
+            font-weight: 600;            
+        }
+    }
+
+    &__button {
+        bottom: 5px;
+        right: 5px;
+        padding: 0rem;
+        margin: 0rem;
+        height: 50px;
+        width: 160px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+        border: 2px solid #393939;
+        color: #FFF;
+
+        &:active {
+            transform: translateY(5px) translateX(5px);
+        }
+
+        &--box {
+            margin-left: 43%;
+            height: 50px;
+            width: 160px;
+            background-color: #5BACC3;
+            position: relative;
+        }
+    }
+}
+
+.mission {
+    &-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 8rem;
+    background-color: #FFF;        
+    }
+
+    &__left {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;        
+    }
+
+    &__title {
+        display: flex;
+        justify-content: flex-start;
+        
+        & h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;            
+        }
+    }
+
+    &__img {
+        min-width: 2rem;
+        max-width: 4rem;
+        margin: 2rem 0rem;
+
+        &--box {
+            display: flex;
+            justify-content: space-between;                
+        }
+    }
+
+    &__button {
+        bottom: 5px;
+        right: 5px;
+        padding: 0rem;
+        margin: 0rem;
+        height: 50px;
+        width: 160px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+        border: 2px solid #393939;
+        color: #FFF;
+
+        &:active {
+            transform: translateY(5px) translateX(5px);
+        }
+
+        &-box {
+            height: 50px;
+            width: 160px;
+            padding: 0rem;
+            background-color: #5BACC3;
+            position: relative;            
+        }
+    }
+
+    &__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+        background-image: url(../assets/images/coldbrewbackground.png);
+        background-size: 26rem;
+        background-repeat: repeat;
+        position: relative;
+
+            &:hover img {
+                animation: rotate 2s linear infinite;
+            }
+        
+        & img {
+            align-items: center;
+            height: 75%;            
+        }
+
+        &--teal-border {
+            pointer-events: none;
+            top: 88.125rem;
+            right: 6.875rem;
+            position: absolute;
+            width: 400px;
+            height: 383px;
+            border: 4px solid #5BACC3;
+            z-index: 1;
+        }
+    }
+}
+
+.discount {
+    &-text-bold {
+        font-weight: 700;
+    }
+
+    &-banner {
+        width: 80%;
+        margin: 7rem 0rem 7rem 10rem;
+        padding: 2.4rem 0rem;    
+        text-align: center;
+        font-size: 2.5rem;
+        color: #FFF;
+        animation: color-swap  2.5s infinite linear;
+    }
+}
